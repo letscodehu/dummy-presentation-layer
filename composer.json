@@ -1,0 +1,18 @@
+{
+  "name" : "letscodehu/dummy-presentation-layer",
+  "version" : "1.0.0",
+  "require" : {
+    "letscodehu/service-layer-api" : "^1.0.0"
+  },
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url" : "https://github.com/letscodehu/service-layer-api"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Letscodehu\\" : "src/"
+    }
+  }
+}
